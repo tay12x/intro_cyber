@@ -9,7 +9,7 @@ usernames=("atanaka" "alee" "rpatel")
 for username in "${usernames[@]}"
 do
     sudo userdel
- -m "$username"
+  "$username"
 done
 
 echo "Successfully created users"
